@@ -29,12 +29,12 @@ export ROS_HOSTNAME=IP-address_PC
 После выполнения сетевых настроек необходимо в этом же терминале запустить программу для телеуправления:
 
 ```
-rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+rosrun turtlebro_keyboard_teleop teleop_twist_keyboard.py
 ```
 
 Также можно запускать программу со своими параметрами:
 ```
-rosrun teleop_twist_keyboard teleop_twist_keyboard.py _speed:=0.9 _turn:=0.8
+rosrun turtlebro_keyboard_teleop teleop_twist_keyboard.py _speed:=0.9 _turn:=0.8
 ```
 
 # Использование программы
